@@ -1,0 +1,48 @@
+.navbarContainer{
+	width: 100%;
+	min-height: 50;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 10px;
+	position: sticky;
+	top: 0;
+	background-color: #ffffff;
+	z-index: 100;
+}
+
+.navbar_heading{
+	margin-right: 20px;
+	padding-right:10px;
+	gap:20px
+}
+
+.navbar_heading > a{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.navbar-links{
+	justify-content: space-between;
+	gap:15px
+}
+
+.navbar-links > a{
+	margin:15px
+}
+
+.navbar-links > a.active{
+	font-weight: 600;
+}
+
+
+.cart_counts{
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #6457f9;
+	color: white;
+	font-size: 15px;
+	margin-left: 3px;
+}
+
